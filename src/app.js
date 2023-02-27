@@ -18,4 +18,5 @@ application.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
 
+module.exports = application;
 module.exports.handler = serverless(application)
