@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify Token</title>
+    <link rel="stylesheet" href="../style/PaginaToken.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert2@11"></script>
+
+  </head>
+  <body>
+    <div id="Principal">
+        <div id="FondoTitulo">
+            <h1 id="Titulo" class="TituloInsano">Este es tu token Spotify</h1>
+        </div>
+
+        <div id="Instrucciones">
+            <h1 id="textoI">
+                Copia el Token de Spotify que está debajo y pégalo en el GUI del juego. Recuerda que el token caduca cada hora, así que deberás renovarlo cada hora. Si el token no funciona, genera uno nuevo.
+            </h1>
+
+            <div id="invitacionDC">
+                <h1 id="Dudas">¿Tienes dudas?</h1>
+                <div id="FrameDiscord">
+                    <button id="Discord" onclick="window.open('https://discord.com/invite/HKZFZ2DCzX')">Discord UwU</button>
+                    <img id="ImageDc" class="ImageDc" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="DiscordImg">
+                </div>
+
+                <div id="FrameGrupo">
+                    <button id="Grupo" onclick="window.open('https://www.roblox.com/groups/14463908/R-G-Estudios#!/about')">Grupo OwO</button>
+                    <img id="ImageGrupo" class="ImageGrupo" src="https://media.discordapp.net/attachments/997614456303525969/1079598066576932957/image_22.png?width=609&height=609" alt="RobloxImg">
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Token">
+            <h1 id="TokenString"><%= token %></h1>
+            <button id="Portapapeles"></button>
+        </div>
+    </div>
+	<script src="../js/index.js"></script>
+  </body>
+</html>
